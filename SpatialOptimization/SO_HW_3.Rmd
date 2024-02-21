@@ -1,0 +1,44 @@
+---
+title: '**Measuring Redundant Bus Stops in Charlotte, North Carolina**'
+author: "Trevor Kapuvari, Nohman Akhtari"
+date: "02/19/2024"
+output:
+  html_document:
+    keep_md: yes
+    toc: yes
+    theme: sandstone
+    toc_float: yes
+    code_folding: hide
+    number_sections: no
+    css: style.css
+  pdf_document:
+    toc: yes
+---
+
+```{r setup, results = 'hide', message = FALSE, warning = FALSE, error = FALSE}
+library(tidyverse)
+library(tidycensus)
+library(sf)
+library(knitr)
+library(viridis)
+library(bookdown)
+library(MASS)
+library(rmarkdown)
+options(scipen = 999)
+knitr::opts_chunk$set(echo = TRUE)
+theme_update(plot.title = element_text(hjust = 0.5))
+```
+
+
+# Introduction
+
+
+# Methodology
+Mention that ArcGis can process 10k and we had 12k rows -> removed those with 0
+
+# Case Study | Charlotte Area Transit System (CATS)
+
+
+# Conclusion
+
+
